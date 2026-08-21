@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://healthcalc.ciciad.tech',
+  site: 'https://ciciad.tech',
   output: 'static',
   integrations: [react(), tailwind(), sitemap()],
   i18n: {
